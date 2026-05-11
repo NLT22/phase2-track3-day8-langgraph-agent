@@ -5,3 +5,11 @@
 {"id":"S05_error","query":"Timeout failure while processing request","expected_route":"error","requires_approval":false,"should_retry":true,"tags":["retry"]}
 {"id":"S06_delete","query":"Delete customer account after support verification","expected_route":"risky","requires_approval":true,"should_retry":false,"tags":["hitl","destructive"]}
 {"id":"S07_dead_letter","query":"System failure cannot recover after multiple attempts","expected_route":"error","requires_approval":false,"should_retry":true,"max_attempts":1,"tags":["dead_letter","retry"]}
+{"id":"S08_simple2","query":"What are your business hours?","expected_route":"simple","requires_approval":false,"should_retry":false,"tags":["simple","easy"]}
+{"id":"S09_tool2","query":"Track my package 98765","expected_route":"tool","requires_approval":false,"should_retry":false,"tags":["tool","easy"]}
+{"id":"S10_missing2","query":"Fix it now","expected_route":"missing_info","requires_approval":false,"should_retry":false,"tags":["clarification","easy"]}
+{"id":"S11_risky2","query":"Cancel my subscription immediately","expected_route":"risky","requires_approval":true,"should_retry":false,"tags":["hitl","risky","medium"]}
+{"id":"S12_error2","query":"Service is unavailable right now","expected_route":"error","requires_approval":false,"should_retry":true,"tags":["retry","medium"]}
+{"id":"S13_risky_over_tool","query":"Delete order 12345 and send confirmation","expected_route":"risky","requires_approval":true,"should_retry":false,"tags":["hitl","priority","complex"]}
+{"id":"S14_tool_over_error","query":"Search for crash logs in the database","expected_route":"tool","requires_approval":false,"should_retry":false,"tags":["tool","priority","complex"]}
+{"id":"S15_risky_multi","query":"Remove all permissions and revoke user access","expected_route":"risky","requires_approval":true,"should_retry":false,"tags":["hitl","risky","complex"]}

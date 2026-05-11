@@ -25,6 +25,7 @@ dev = [
 ]
 sqlite = ["langgraph-checkpoint-sqlite>=2.0"]
 postgres = ["langgraph-checkpoint-postgres>=2.0"]
+ui = ["streamlit>=1.35", "pandas>=2.0"]
 
 [project.scripts]
 agent-lab = "langgraph_agent_lab.cli:app"
@@ -38,7 +39,7 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "N", "ANN"]
-ignore = ["ANN101", "ANN102"]
+ignore = ["ANN401"]
 
 [tool.pytest.ini_options]
 minversion = "8.0"

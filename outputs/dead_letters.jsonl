@@ -1,0 +1,11 @@
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "S07_dead_letter", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "S07_dead_letter", "attempt": 1, "errors": ["transient failure attempt=1", "transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "S07_dead_letter", "attempt": 1, "errors": ["transient failure attempt=1", "transient failure attempt=1", "transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
+{"scenario_id": "smoke", "attempt": 1, "errors": ["transient failure attempt=1"], "query": "System failure cannot recover after multiple attempts"}
